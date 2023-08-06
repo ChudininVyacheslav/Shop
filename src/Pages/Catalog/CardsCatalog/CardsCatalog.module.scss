@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .card {
+    border: 1px solid #ad9a9a80;
+    width: 350px;
+
+    .card__wrapper {
+        width: 325px;
+        text-align: left;
+
+      .card__img {
+        width: 80%;
+        margin-top: 20px;
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}

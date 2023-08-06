@@ -1,0 +1,46 @@
+.nav {
+    float: right;
+    list-style: none;
+  
+    #catalog:hover .mebel {
+      display: block;
+    }
+
+    .nav__item {
+      display: inline;
+      margin-left: 25px;
+      cursor: pointer;
+      transition: opacity 500ms ease;
+  
+      .nav__link {
+        text-decoration: none;
+        color: #222;
+      }
+    }
+  
+    .nav__item:hover {
+      opacity: 0.5;
+    }
+  }
+  
+  .mebel {
+    position: absolute;
+    display: none;
+    border: solid 1px black;
+    list-style: none;
+    width: 110px;
+    text-align: center;
+  
+    .mebel__item {
+      display: block;
+      line-height: 35px;
+    }
+  
+    .mebel__item:hover {
+      background-color: #222;
+      opacity: 0.5;
+      .nav__link {
+        color: white;
+      }
+    } 
+  }
